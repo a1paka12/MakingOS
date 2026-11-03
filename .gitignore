@@ -4,3 +4,5 @@ target/
 # macOS 시스템 숨김 파일 제외
 .DS_Store
 **/.DS_Store
+# Obsidian 설정 폴더 제외
+.obsidian/
