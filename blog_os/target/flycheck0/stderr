@@ -1,0 +1,14 @@
+warning: Cargo.toml: unused manifest key: toolchain
+warning: `blog_os` (manifest) generated 1 warning
+warning: unused dependency `bootloader`
+  --> Cargo.toml:18:1
+   |
+18 | bootloader = "0.9.23"
+   | ^^^^^^^^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `bootloader`
+warning: `blog_os` (manifest) generated 1 warning
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.12s
+warning: the following packages contain code that will be rejected by a future version of Rust: core v0.0.0 (/Users/wooseok/.rustup/toolchains/nightly-aarch64-apple-darwin/lib/rustlib/src/rust/library/core)
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`

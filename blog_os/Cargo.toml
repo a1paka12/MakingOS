@@ -1,0 +1,23 @@
+[package]
+name = "blog_os"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "blog_os"
+test = false
+bench = false
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
+bootloader = "0.9.23"
+
+[toolchain]
+profile = "minimal"
+channel = "nightly-2023-10-31"
+components = ["rust-src", "llvm-tools-preview"]
