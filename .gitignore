@@ -1,0 +1,3 @@
+# Rust 빌드 결과물 제외
+target/
+**/*.rmeta
