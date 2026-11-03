@@ -1,3 +1,6 @@
 # Rust 빌드 결과물 제외
 target/
 **/*.rmeta
+# macOS 시스템 숨김 파일 제외
+.DS_Store
+**/.DS_Store
